@@ -1,0 +1,26 @@
+{
+  "name": "project-memory",
+  "version": "0.1.0",
+  "description": "Local-first project memory: agent conversations and decisions linked to exact code versions, retrieved as compact source-backed context.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "pm": "src/cli.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test test/*.test.ts",
+    "test:unit": "node --test test/unit-*.test.ts",
+    "bench": "node bench/bench.ts"
+  },
+  "dependencies": {
+    "@zvec/zvec-grep": "0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
