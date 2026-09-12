@@ -1,5 +1,10 @@
 # Project Memory CLI (`pm`)
 
+[Try the interactive product demo](https://nanashili.github.io/Project-Memory/)
+to explore capture, confirmation, and context handoff with simulated examples.
+The static page lives in `site/` and publishes through GitHub Pages when those
+files change on `main`.
+
 Local-first memory for one developer's projects: it stores coding-agent
 conversations and decisions in SQLite, links every decision to exact code
 versions and Git history, and serves compact, source-backed context back to any
